@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="signos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="signo_aries">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_touro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_gemeos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_cancer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_leao">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_virgem">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_libra">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_escorpiao">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_sagitario">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_capricornio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_aquario">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="signo_peixes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string" />
+                            <xs:element name="data_nascimento" type="xs:string" />
+                            <xs:element name="caracteristicas" type="xs:string" />
+                            <xs:element name="foto" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

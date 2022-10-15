@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+:root {
+  --primary-color: #f6f3d7;
+  --primary-color-darker: #e0d59d;
+  --bckgr-color-cards: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+/* FORMAT CARDS */
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;     
+}
+
+.card{
+    background: var(--bckgr-color-cards);
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: var(--sombra);
+    max-width: 45rem;
+}
+
+.imagem{
+  background-color: rgba(165, 149, 255, 0.315);
+  border-radius: 10px 10px 0 0;
+}
+
+.card img{
+    width: auto;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+
+.card .signoNome{
+    color: rgb(255, 80, 0);
+    font-family: var(--fonte-familia-logo);
+    font-size: var(--fonte-tamanho-signoNome);
+    padding-top: 1.75rem;
+}
+
+.card .data{
+    color: rgba(34, 33, 33, 0.822);
+    font-size:0.8rem; 
+    font-style: oblique;
+    padding-bottom: 0;
+}
+
+.card p{
+    color: rgba(0, 0, 0, 0.822);
+    font-size:.95rem;
+    padding: 0 1.75rem 1.75rem;
+    text-align:justify; 
+}
+
+@media screen and (max-width: 450px){
+    #cards{
+        padding: 5rem 0 0 2.5rem;
+    }
+}

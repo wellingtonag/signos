@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o seu Signo</title>
+    <!--Tira o erro 404 do favicon.ico-->
+    <link rel="icon" href="/img/favicon.png" sizes="57x57">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <link rel="stylesheet" href="css/base/base.css" />
+    <link rel="stylesheet" href="css/base/variaveis.css" />
+    <link rel="stylesheet" href="css/componentes/botao.css" />
+    <link rel="stylesheet" href="css/componentes/cartao.css" />
+    <link rel="stylesheet" href="css/componentes/graus.css" />
+    <link rel="stylesheet" href="css/componentes/inputs.css" />
+    <link rel="stylesheet" href="css/componentes/resultado.css" />
+</head>
+
+<body>
+    <main class="container flex flex--coluna flex--centro">
+        <div class="cadastro-cabecalho">
+            <img class="cadastro-cabecalho__logo  spinner is-animating" src="./img/logo.png" alt="Logo IMC" />
+            <h1 class="cadastro-cabecalho__titulo">Qual é o seu Signo?</h1>
+        </div>
+        <section class="cartao">
+            <form action="" id="formulario" class=" form formulario flex flex--coluna">
+                <fieldset>
+                    <legend class="formulario__legenda">Informe a sua data de nascimento:</legend>
+                    <div class="input-container">
+                        <input name="idade" id="birthDate" class="input" type="date" onClick="event.preventDefault()" required />
+                        <label class="input-label" for="idade">Data de nascimento</label>
+                    </div>
+                </fieldset>
+
+                <button class="botao" type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <div id="text" class="cards"></div>
+        
+    </main>
+
+    <script src="./js/scripts.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.botao {
+  display: block;
+  background-color: var(--cor-botao);
+  border-radius: 7px;
+  width: 100%;
+  margin-top: 1rem;
+  max-width: 20rem;
+  padding: 1.125rem;
+  box-sizing: border-box;
+  color: var(--cor-fonte-botao);
+  font-size: var(--fonte-tamanho-botao);
+  align-self: center;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: 0.8px solid var(--cor-transparencia);
+}
+.botao:hover {
+  background: var(--cor-botao-hover);
+  color: var(--cor-fonte-botao-hover);
+}
+

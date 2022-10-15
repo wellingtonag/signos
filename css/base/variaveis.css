@@ -1,0 +1,43 @@
+:root {
+  --fonte-familia-corpo: "Montserrat", sans-serif;
+  --fonte-familia-logo: "Pacifico", cursive;
+
+  --fonte-peso-input: 300;
+
+  --fonte-tamanho-logo: 28px;
+  --fonte-tamanho-signoNome: 28px;
+  --fonte-tamanho-cartao-titulo: 28px;
+  --fonte-tamanho-input-label: 0.875rem;
+  --fonte-tamanho-botao: 22px;
+  --fonte-tamanho-formulario-fieldset: 14px;
+  --fonte-tamanho-resultado: 18px;
+  --fonte-tamanho-tabela-cabecalho: 22px;
+  --fonte-tamanho-modal-titulo: 26px;
+  --fonte-tamanho-modal-botao: 28px;
+
+  --primary-color: #f6f3d7;
+  --primary-color-darker: #e0d59d;
+
+  --cor-primaria: #0071ea;
+  --cor-secundaria: #d6eaff;
+  --cor-contraste-claro: #fff;
+  --cor-contraste-escuro: #4d4d4d;
+  --cor-contraste-marrom: #7a4c47;
+  --cor-aviso: #df2525;
+  --cor-sucesso: #047900;
+  --cor-transparencia: #532b2633;
+  --cor-botao-hover: rgba(97, 87, 151, 0.548);
+  --cor-botao: rgba(180, 170, 236, 0.801);
+  --cor-fonte-botao-hover: rgba(242, 240, 255, 0.897);
+  --cor-fonte-botao: rgba(44, 40, 66, 0.705);
+
+  --sombra: 0 5px 10px #532b2638;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --fonte-tamanho-logo: 40px;
+    --fonte-tamanho-signoNome:42px;
+    --fonte-tamanho-formulario-fieldset: 18px;
+  }
+}
